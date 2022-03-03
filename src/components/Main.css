@@ -1,0 +1,37 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.main-title {
+  position: absolute;
+  right: 10%;
+  color: black;
+  font-size: 7rem;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+
+  background: -webkit-linear-gradient(top, darkblue 0%, black 100% );
+  background: -webkit-gradient(to bottom, blue 0%, black 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-subt {
+  position:absolute;
+  right: 9.7%;
+  bottom: 57%;
+  color: black;
+  font-size: 1.5rem;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
